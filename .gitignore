@@ -32,3 +32,4 @@ build/
 ### VS Code ###
 .vscode/
 ./src/main/resources/application.properties
+./to-do-c5627-firebase-adminsdk-4uize-3987593163.json
