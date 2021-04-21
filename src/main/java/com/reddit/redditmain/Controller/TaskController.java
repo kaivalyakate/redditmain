@@ -39,8 +39,8 @@ public class TaskController {
     public List<Tasks> getTodoList() {
         List<Task> t1 = todoListRepository.findAll();
         List<Tasks> t2 = new ArrayList<>();
-        for (Task a1 : t1) {
-            t2.add(modelMapper.map(a1, Tasks.class));
+        for (Task a : t1) {
+            t2.add(modelMapper.map(a, Tasks.class));
         }
         return t2;
     }
