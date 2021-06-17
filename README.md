@@ -1,2 +1,2 @@
 # redditmain
-REST API ENDPOINT for TODO Application
+Backend System for a TODO List based application using Spring Boot. 
